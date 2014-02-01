@@ -1,10 +1,15 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.1'
+gem 'rails'
+# , '3.2.1'
 gem 'sqlite3'
+gem 'mysql2'
 gem 'jquery-rails'
 gem 'docsplit'
 gem 'carrierwave'
+gem 'execjs'
+
+gem 'therubyracer'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
